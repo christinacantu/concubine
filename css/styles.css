@@ -1,0 +1,49 @@
+body {
+	font-size: 16px;
+}
+
+.containter {
+  width: 376px;
+  margin: 0px auto;
+  padding: 26px;
+  font-family: 'Avenir', 'Helvetica', 'Arial', 'Sans-serif';
+  color: #FFFFFF;
+  background-color: #0F79FB;
+}
+
+.header {
+  margin-bottom: 40px;
+}
+
+.header p {
+  font-size: 1em;
+  line-height: 1em;
+}
+
+h1 h2 {  /*Why not target using h1, h2? */
+  font-size: 1.375em;  /*22px */
+  font-weight: 900;
+  line-height: 1.625em; /*26px*/
+}
+
+
+main {
+  position: relative;
+}
+
+.from-box {
+  display: inline-block;
+  margin-bottom: 16px;
+  padding: 8px 16px;
+  background-color: #0C65E4;
+  line-height: 1.250em;  /*20px*/
+}
+
+ .from-box:last-child {  /*Should I nest this within from-box? */
+  margin-bottom: 297px;
+}
+
+.send-response {
+  position: absolute;
+  bottom: 0px;
+}
