@@ -1,6 +1,6 @@
-body {
+/* body {
 	font-size: 16px;
-}
+} */
 
 .containter {
   width: 376px;
@@ -13,7 +13,7 @@ body {
 
 .header {
   margin-bottom: 40px;
-  font-weight: 900;
+  font-weight: bold;
 }
 
 .header p {
