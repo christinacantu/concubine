@@ -13,16 +13,18 @@ body {
 
 .header {
   margin-bottom: 40px;
+  font-weight: 900;
 }
 
 .header p {
+  margin-top: 10px;
   font-size: 1em;
+  font-weight: 300;
   line-height: 1em;
 }
 
 h1 h2 {  /*Why not target using h1, h2? */
   font-size: 1.375em;  /*22px */
-  font-weight: 900;
   line-height: 1.625em; /*26px*/
 }
 
