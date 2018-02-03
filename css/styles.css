@@ -1,12 +1,12 @@
-/* body {
+body {
 	font-size: 16px;
-} */
+}
 
 .containter {
   width: 376px;
   margin: 0px auto;
   padding: 26px;
-  font-family: 'Avenir', 'Helvetica', 'Arial', 'Sans-serif';
+  font-family: 'Avenir', 'Helvetica', 'Arial', sans-serif;
   color: #FFFFFF;
   background-color: #0F79FB;
 }
@@ -21,31 +21,62 @@
   font-size: 1em;
   font-weight: 300;
   line-height: 1em;
+  opacity: 0.90;
 }
 
-h1 h2 {  /*Why not target using h1, h2? */
+h1, h2 {  /*Why not target using h1, h2? */
   font-size: 1.375em;  /*22px */
-  line-height: 1.625em; /*26px*/
+  line-height: 1.225em; /*26px*/
 }
-
 
 main {
   position: relative;
 }
 
-.from-box {
+.from-text {
   display: inline-block;
   margin-bottom: 16px;
   padding: 8px 16px;
+  border-radius: 4px;
   background-color: #0C65E4;
+  color: rgba(255, 255, 255, 0.90);
   line-height: 1.250em;  /*20px*/
 }
 
- .from-box:last-child {  /*Should I nest this within from-box? */
+ .from-text:last-child {  /*Should I nest this within from-box? */
   margin-bottom: 297px;
 }
 
 .send-response {
+	display: flex;
   position: absolute;
   bottom: 0px;
+}
+
+input[type=text] {
+  padding: 1px 0 6px 0px;
+  text-indent: 16px;
+  border: none;
+  border-radius: 4px;
+  font-size: 1em;
+  line-height: 1em;
+}
+
+::placeholder {
+  font-weight: 300;
+  color: rgba(0, 0, 0, 0.35);
+  line-height: 1em;
+}
+
+button {
+  padding: 8px 12px;
+	margin-left: 13px;
+  border: none;
+  border-radius: 4px;
+  background-color: #0C65E4;
+  font-size: 1em;
+  font-weight: 300;
+  line-height: 1em;
+  color: #FFFFFF;
+
 }
