@@ -6,20 +6,18 @@ body {
 }
 
 .containter {
-  width: 376px;
-	/* set to max-width */
-	/* make position relative */
+	max-width: 376px;
+	height: 100vh;
+	position: relative;
   margin: 0px auto;
   padding: 26px;
 }
 
-.header {
-  margin-bottom: 40px;
-  font-weight: bold;
-	/* set bold on h1, h2 only */
+header {
+	margin-bottom: 40px;
 }
 
-.header p {
+header p {
   margin-top: 10px;
   font-size: 1em;
   font-weight: 300;
@@ -29,16 +27,11 @@ body {
 
 h1, h2 {
   font-size: 1.375em;  /*22px */
+	font-weight: bold;
   line-height: 1.225em; /*26px*/
 }
 
-main {
-  position: relative;
-	/* remove so the send-response goes to container */
-}
-
 .from-text {
-	/* change to a .message */
   display: inline-block;
   margin-bottom: 16px;
   padding: 8px 16px;
@@ -52,7 +45,6 @@ main {
 	display: flex;
   position: absolute;
   bottom: 0px;
-	/* should be absolute within the container */
 }
 
 input[type=text] {
@@ -79,5 +71,5 @@ button {
   font-size: 1em;
   font-weight: 300;
   line-height: 1em;
-  color: #FFFFFF;
+  color: #FFFFFF;  /*set color on button rather than on body or containter to prevent weird things from happening */
 }
