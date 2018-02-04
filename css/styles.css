@@ -1,7 +1,7 @@
 body {
+	font-family: 'Avenir', 'Helvetica', 'Arial', sans-serif;
 	font-size: 16px;
-	/* maybe make the bg blue */
-	/* set font family here */
+	background-color: #0F79FB;
 }
 
 .containter {
@@ -10,10 +10,10 @@ body {
 	/* make position relative */
   margin: 0px auto;
   padding: 26px;
-  font-family: 'Avenir', 'Helvetica', 'Arial', sans-serif;
+
   color: #FFFFFF;
 	/* set the color on body */
-  background-color: #0F79FB;
+
 }
 
 .header {
