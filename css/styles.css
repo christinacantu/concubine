@@ -2,7 +2,6 @@ body {
 	font-family: 'Avenir', 'Helvetica', 'Arial', sans-serif;
 	font-size: 16px;
 	color: #FFFFFF;
-	background-color: #0F79FB;
 }
 
 .containter {
@@ -11,6 +10,7 @@ body {
 	position: relative;
   margin: 0px auto;
   padding: 26px;
+	background-color: #0F79FB;
 }
 
 header {
@@ -44,12 +44,16 @@ h1, h2 {
 .send-response {
 	display: flex;
   position: absolute;
-  bottom: 0px;
+  bottom: 24px;
+	left: 26px;
+	right: 26px;
 }
 
 input[type=text] {
-  padding: 1px 0 6px 0px;
-  text-indent: 16px;
+	display: block;
+	flex-grow: 2;  /*there's no need to set flex-grow on the button because we want the input to grow and the button to just go along with it */
+	text-indent: 16px;
+  padding: 6px 0px;
   border: none;
   border-radius: 4px;
   font-size: 1em;
