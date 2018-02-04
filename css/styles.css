@@ -1,19 +1,25 @@
 body {
 	font-size: 16px;
+	/* maybe make the bg blue */
+	/* set font family here */
 }
 
 .containter {
   width: 376px;
+	/* set to max-width */
+	/* make position relative */
   margin: 0px auto;
   padding: 26px;
   font-family: 'Avenir', 'Helvetica', 'Arial', sans-serif;
   color: #FFFFFF;
+	/* set the color on body */
   background-color: #0F79FB;
 }
 
 .header {
   margin-bottom: 40px;
   font-weight: bold;
+	/* set bold on h1, h2 only */
 }
 
 .header p {
@@ -24,16 +30,18 @@ body {
   opacity: 0.90;
 }
 
-h1, h2 {  /*Why not target using h1, h2? */
+h1, h2 {
   font-size: 1.375em;  /*22px */
   line-height: 1.225em; /*26px*/
 }
 
 main {
   position: relative;
+	/* remove so the send-response goes to container */
 }
 
 .from-text {
+	/* change to a .message */
   display: inline-block;
   margin-bottom: 16px;
   padding: 8px 16px;
@@ -45,12 +53,14 @@ main {
 
  .from-text:last-child {  /*Should I nest this within from-box? */
   margin-bottom: 297px;
+	/* nope! remove */
 }
 
 .send-response {
 	display: flex;
   position: absolute;
   bottom: 0px;
+	/* should be absolute within the container */
 }
 
 input[type=text] {
@@ -78,5 +88,4 @@ button {
   font-weight: 300;
   line-height: 1em;
   color: #FFFFFF;
-
 }
